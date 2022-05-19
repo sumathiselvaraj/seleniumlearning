@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-19T10:13:23 MDT" name="Suite" finished-at="2022-05-19T10:13:30 MDT" duration-ms="7261">
+    <groups>
+    </groups>
+    <test started-at="2022-05-19T10:13:23 MDT" name="Test" finished-at="2022-05-19T10:13:30 MDT" duration-ms="7261">
+      <class name="Section8.ShoppingKart">
+        <test-method signature="Kart()[pri:0, instance:Section8.ShoppingKart@53dfacba]" started-at="2022-05-19T10:13:23 MDT" name="Kart" finished-at="2022-05-19T10:13:30 MDT" duration-ms="7025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Kart -->
+      </class> <!-- Section8.ShoppingKart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
