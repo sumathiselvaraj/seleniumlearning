@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-19T11:36:41 MDT" name="Suite" finished-at="2022-05-19T11:36:54 MDT" duration-ms="13054">
+  <suite started-at="2022-05-19T17:02:15 MDT" name="Suite" finished-at="2022-05-19T17:03:04 MDT" duration-ms="49224">
     <groups>
     </groups>
-    <test started-at="2022-05-19T11:36:41 MDT" name="Test" finished-at="2022-05-19T11:36:54 MDT" duration-ms="13054">
+    <test started-at="2022-05-19T17:02:15 MDT" name="Test" finished-at="2022-05-19T17:03:04 MDT" duration-ms="49224">
+      <class name="Section8.Assign3">
+        <test-method signature="assignment()[pri:0, instance:Section8.Assign3@777c350f]" started-at="2022-05-19T17:02:28 MDT" name="assignment" finished-at="2022-05-19T17:03:04 MDT" duration-ms="36246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment -->
+      </class> <!-- Section8.Assign3 -->
       <class name="Section8.ShoppingKart">
-        <test-method signature="Kart()[pri:0, instance:Section8.ShoppingKart@53dfacba]" started-at="2022-05-19T11:36:41 MDT" name="Kart" finished-at="2022-05-19T11:36:54 MDT" duration-ms="12845" status="PASS">
+        <test-method signature="Kart()[pri:0, instance:Section8.ShoppingKart@62ddd21b]" started-at="2022-05-19T17:02:15 MDT" name="Kart" finished-at="2022-05-19T17:02:28 MDT" duration-ms="12736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Kart -->

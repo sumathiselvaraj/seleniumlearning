@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -45,17 +46,17 @@ public class Assignment2 {
 				driver.findElement(By.name("bday")).sendKeys("05/20/1983");
 				
 				driver.findElement(By.xpath("//input[@type='submit']")).click();
-				String a=driver.findElement(By.xpath("//strong[contains(text(),'Success!')]")).getText();
-
-				System.out.println(a);
+				//String a=driver.findElement(By.xpath("//strong[contains(text(),'Success!')]")).getText();
+//
+	//			System.out.println(a);
 				
 				//System.out.println(driver.findElement(By.cssSelector(".alert-success")).getText());
 				
 //				//String expectedalert = " The Form has been submitted successfully!";
-//				WebElement actualalert = driver.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible']/strong"));
+     			WebElement actualalert = driver.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible']"));
 //				
 //				
-//				String alert = actualalert.getText();System.out.println(alert);
+				String alert = actualalert.getText();System.out.println(alert);
 				
 				//String alert1 = alert.replace("x", " ");
 				//if (alert1.equals("  Success! The Form has been submitted successfully!.")) {System.out.println(alert1);}else {System.out.println("no");}
