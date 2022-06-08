@@ -38,6 +38,7 @@ public class ShoppingKart {
 		WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(5)); // creating a object to invoke method from the wait class
 		
 		System.out.println("Print");
+		System.out.println("Testing");
 		
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 
